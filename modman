@@ -1,0 +1,8 @@
+app/code/local/Twinsen/NoTelephoneRequired/Model/EnableTelephone.php app/code/local/Twinsen/NoTelephoneRequired/Model/EnableTelephone.php
+app/code/local/Twinsen/NoTelephoneRequired/Model/Customer/Address.php app/code/local/Twinsen/NoTelephoneRequired/Model/Customer/Address.php
+app/code/local/Twinsen/NoTelephoneRequired/Model/Sales/Order/Address.php app/code/local/Twinsen/NoTelephoneRequired/Model/Sales/Order/Address.php
+app/code/local/Twinsen/NoTelephoneRequired/Model/Sales/Quote/Address.php app/code/local/Twinsen/NoTelephoneRequired/Model/Sales/Quote/Address.php
+app/code/local/Twinsen/NoTelephoneRequired/Helper/Data.php app/code/local/Twinsen/NoTelephoneRequired/Helper/Data.php
+app/code/local/Twinsen/NoTelephoneRequired/etc/config.xml app/code/local/Twinsen/NoTelephoneRequired/etc/config.xml
+app/code/local/Twinsen/NoTelephoneRequired/etc/system.xml app/code/local/Twinsen/NoTelephoneRequired/etc/system.xml
+app/etc/modules/Twinsen_NoTelephoneRequired.xml app/etc/modules/Twinsen_NoTelephoneRequired.xml

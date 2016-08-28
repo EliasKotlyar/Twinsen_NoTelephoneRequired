@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Twinsen_NoTelephoneRequired>
+            <version>1.0.0</version>
+        </Twinsen_NoTelephoneRequired>
+    </modules>
+    <global>
+        <helpers>
+            <Twinsen_NoTelephoneRequired>
+                <class>Twinsen_NoTelephoneRequired_Helper</class>
+            </Twinsen_NoTelephoneRequired>
+        </helpers>
+        <models>
+            <Twinsen_NoTelephoneRequired>
+                <class>Twinsen_NoTelephoneRequired_Model</class>
+            </Twinsen_NoTelephoneRequired>
+            <customer>
+                <rewrite>
+                    <address>Twinsen_NoTelephoneRequired_Model_Customer_Address</address>
+                </rewrite>
+            </customer>
+            <sales>
+                <rewrite>
+                    <quote_address>Twinsen_NoTelephoneRequired_Model_Sales_Quote_Address</quote_address>
+                    <order_address>Twinsen_NoTelephoneRequired_Model_Sales_Order_Address</order_address>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+</config>
